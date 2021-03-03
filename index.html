@@ -5,129 +5,157 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Taylor Abbott developer portfolio">
-    <title>Taylor Abbott</title>
+
+    <title>Taylor-Abbott.dev</title>
     <link rel="stylesheet" href="styles.css">
+
 </head>
 
 <body>
+    <div class="grid">
+        <div id="coffee">
+            <div class="container">
+                <div class="plate"></div>
 
+                <div class="cup">
+                    <div class="top">
+                        <div class="vapour">
+                            <span style="--i: 1;"></span>
+                            <span style="--i: 3;"></span>
+                            <span style="--i: 16;"></span>
+                            <span style="--i: 5;"></span>
+                            <span style="--i: 13;"></span>
+                            <span style="--i: 20;"></span>
+                            <span style="--i: 6;"></span>
+                            <span style="--i: 7;"></span>
+                            <span style="--i: 10;"></span>
+                            <span style="--i: 8;"></span>
+                            <span style="--i: 17;"></span>
+                            <span style="--i: 11;"></span>
+                            <span style="--i: 12;"></span>
+                            <span style="--i: 14;"></span>
+                            <span style="--i: 2;"></span>
+                            <span style="--i: 9;"></span>
+                            <span style="--i: 15;"></span>
+                            <span style="--i: 4;"></span>
+                            <span style="--i: 19;"></span>
+                        </div>
 
-    <div class="container" id="coffee">
-        <div class="plate"></div>
-
-        <div class="cup">
-            <div class="top">
-                <div class="vapour">
-                    <span style="--i: 1;"></span>
-                    <span style="--i: 3;"></span>
-                    <span style="--i: 16;"></span>
-                    <span style="--i: 5;"></span>
-                    <span style="--i: 13;"></span>
-                    <span style="--i: 20;"></span>
-                    <span style="--i: 6;"></span>
-                    <span style="--i: 7;"></span>
-                    <span style="--i: 10;"></span>
-                    <span style="--i: 8;"></span>
-                    <span style="--i: 17;"></span>
-                    <span style="--i: 11;"></span>
-                    <span style="--i: 12;"></span>
-                    <span style="--i: 14;"></span>
-                    <span style="--i: 2;"></span>
-                    <span style="--i: 9;"></span>
-                    <span style="--i: 15;"></span>
-                    <span style="--i: 4;"></span>
-                    <span style="--i: 19;"></span>
-                </div>
-
-                <div class="circle">
-                    <div class="tea"></div>
+                        <div class="circle">
+                            <div class="tea"></div>
+                        </div>
+                    </div>
+                    <div class="handle"></div>
                 </div>
             </div>
-            <div class="handle"></div>
-        </div>
-    </div>
 
-    <div class="text">
-        <div class="title">
-            <h1 class="name">Taylor Abbott</h1>
-            <h5 class="role">Full Stack Developer</h5>
         </div>
-
 
         <div class="info">
-
-            <p class="my-description">
-                Hi there! I'm Taylor, and I'm a developer with a background in physics and electrical engineering. I love building software, and am especially interested in animations and 3D on the web. Check out some of my projects below.
-            </p>
-
-            <div class="social">
-                <!-- https://fontawesome.com/license -->
-                <a class="social-link" href="https://github.com/taylornicole906">
-                    <img class="icon" src="./img/github-icon.svg" alt="GitHub logo" />
-                </a>
-                <a class="social-link" href="https://www.linkedin.com/in/taylor-abbott-4b0195149/">
-                    <img class="icon" src="./img/linkedin-icon.svg" alt="LinkedIn logo" />
-                </a>
+            <h1 id="name">Taylor Abbott</h1>
+            <h3>Full Stack Developer</h3>
 
 
+            <div id="container" class="card">
+                <div id="tabs" class="tabs-container">
+
+                    <div class="content">
+                        <div id="tabcontent1" data-tab="1" class="tabcontent">
+                            <p id="p1">Hi! I'm Taylor, and I'm a developer with a background in physics and electrical engineering.</p>
+                            <p id="p2">I love building software and am especially interested in animations and 3d on the web. </p>
+                            <p id="p3">Scroll down to check out some of my projects.</p>
+
+                            <p>
+                                <div class="social">
+                                    <!-- https://fontawesome.com/license -->
+                                    <a class="social-link" href="https://github.com/taylornicole906">
+                                        <img class="icon" src="./img/github-icon.svg" alt="GitHub logo" />
+                                    </a>
+                                    <a class="social-link" href="https://www.linkedin.com/in/taylor-abbott-4b0195149/">
+                                        <img class="icon" src="./img/linkedin-icon.svg" alt="LinkedIn logo" />
+                                    </a>
+                                </div>
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="tabs">
+                <a id="tab1" data-tab="1" class="tab active">About</a>
+                <a id="tab2" data-tab="2" class="tab">Skills</a>
+                <a id="tab3" data-tab="3" class="tab">Experience</a>
+                <a id="tab4" data-tab="4" class="tab">Education</a>
             </div>
 
+
+
+
         </div>
-    </div>
-    <h1 id="projects">
-        Projects
-    </h1>
-    <div class="box">
+
+
 
         <div id="card-container">
             <div id="card">
                 <div class="front face">
-                    <img src="./img/codenames.JPG" alt="3D game screenshot" />
+                    <img src="./img/codenames.JPG" />
                 </div>
                 <div class="back face">
                     <h1>3D car game</h1>
                     <h3 class="tech">Technologies: Javascript, Three.js, cannon.js, node, webpack</h3>
-                    <h4 class="description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit nihil eveniet ad incidunt distinctio illo quisquam doloribus debitis omnis voluptas, corporis, minus voluptates atque nostrum autem ex, quaerat culpa ipsum?</h4>
+                    <h4 class="description">A three.js scene containing a car and road models I made with Blender. I used Cannon.js, a physics javascript library, to bring the car to life and allow for interactions and collisions. The car can be controlled using the arrow keys
+                        on your keyboard, and can be used to push spheres and knock over blocks. </h4>
                 </div>
             </div>
         </div>
-        <div class="card-container">
-            <button>
-                Github repo
-            </button>
-            <button>
-                Deployed Site
-            </button>
+        <div class="button-container">
+            <div id="buttons">
+                <form action="https://github.com/taylornicole906/3d-car">
+                    <button type="submit" text="Github repo"> Github repo </button>
+
+                </form>
+
+                <form action="https://codenames-taylornicole906.netlify.app/">
+                    <button type="submit" text="Github repo"> Deployed Site </button>
+
+                </form>
+            </div>
         </div>
 
         <div id="card-container">
             <div id="card2">
                 <div class="front face">
-                    <img src="./img/codenames.JPG" alt="codenames screenshot" />
+                    <img src="./img/codenames.JPG" />
                 </div>
                 <div class="back face">
                     <h1>Codenames</h1>
                     <h3 class="tech">Technologies: HTML/CSS, Javascript, Socket.io, Node.js, Express</h3>
-                    <h4 class="description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit nihil eveniet ad incidunt distinctio illo quisquam doloribus debitis omnis voluptas, corporis, minus voluptates atque nostrum autem ex, quaerat culpa ipsum?</h4>
+                    <h4 class="description">An online, multiplayer version of the board game Codenames. It was built using HTML/CSS, Javascript and socket.io. One player creates a new game, which others can join using the game code generated. A list of 25 words is generated
+                        and assigned to either the blue or purple team. When a player clicks a word button, an event is emitted to the whole game room, and the button will change color based on which color team the word belongs to. </h4>
                 </div>
             </div>
 
         </div>
 
-        <div class="card-container">
-            <button>
-                Github repo
-            </button>
-            <button>
-                Deployed Site
-            </button>
+        <div class="button-container">
+            <div id="buttons">
+                <form action="https://github.com/taylornicole906/codenames">
+                    <button type="submit" text="Github repo"> Github repo </button>
+
+                </form>
+
+                <form action="https://codenames-taylornicole906.netlify.app/">
+                    <button type="submit" text="Github repo"> Deployed Site </button>
+
+                </form>
+            </div>
         </div>
+
 
         <div id="card-container">
             <div id="card3">
                 <div class="front face">
-                    <img src="./img/codenames.JPG" alt="Houseplant store screenshot" />
+                    <img src="./img/codenames.JPG" />
                 </div>
                 <div class="back face">
                     <h1>Houseplant ecommerce store</h1>
@@ -138,16 +166,26 @@
 
         </div>
 
-        <div class="card-container">
-            <button>
-                Github repo
-            </button>
-            <button>
-                Deployed Site
-            </button>
+        <div class="button-container">
+            <div id="buttons">
+                <form action="https://github.com/taylornicole906/3d-plant-store">
+                    <button type="submit" text="Github repo"> Github repo </button>
+
+                </form>
+
+                <form action="https://codenames-taylornicole906.netlify.app/">
+                    <button type="submit" text="Github repo"> Deployed Site </button>
+
+                </form>
+            </div>
         </div>
+
+    </div>
     </div>
 
+
+
+    <script src="script.js"></script>
 </body>
 
 </html>
