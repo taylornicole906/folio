@@ -21,7 +21,7 @@ for (var i = 0; i < 4; i++) {
         if (element.id == "tab1") {
             document.getElementById("p1").innerHTML = "Hi! I'm Taylor, and I'm a developer with a background in physics and electrical engineering.";
             document.getElementById("p2").innerHTML = "I love building software and am especially interested in animations and 3d on the web.";
-            document.getElementById("p3").innerHTML = "Scroll down to check out some of my projects.";
+            document.getElementById("p3").innerHTML = "Connect w/ me on LinkedIn or check out some of my projects.";
         } else if (element.id == "tab2") {
             document.getElementById("p1").innerHTML = "Langauges: HTML,  CSS,  Javascript,  Python3,  C#,  Java, VB.Net";
             document.getElementById("p2").innerHTML = "Frameworks and Libraries: React.js, Three.js, Socket.io ";
