@@ -54,6 +54,10 @@
             margin-bottom: 6%;
         }
         
+        h4 {
+            font-size: 1rem;
+        }
+        
         .icon {
             width: 7%;
             height: 7%;
@@ -414,8 +418,8 @@
                 display: none;
             }
             .grid {
-                display: block;
-                justify-content: center;
+                margin: 0;
+                padding: 0;
             }
             .info {
                 width: 100vw;
