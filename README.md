@@ -1,3 +1,3 @@
 # folio
 
-My portfolio, written with HTML/CSS and a bit of vanilla js
+My portfolio, written with HTML/CSS & vanilla js
